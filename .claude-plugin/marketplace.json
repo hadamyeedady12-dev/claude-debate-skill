@@ -1,14 +1,16 @@
 {
-  "name": "debate-skill",
+  "name": "claude-debate-skill",
   "owner": {
     "name": "hadamyeedady12-dev"
   },
   "plugins": [
     {
       "name": "debate",
-      "source": ".",
-      "description": "Multi-model structured debate — Codex, Gemini, Claude 3-way round debate",
-      "version": "1.0.0"
+      "description": "Multi-model structured debate — Codex, Gemini, Claude 3-way round debate with cross-critique, quality scoring, and synthesis",
+      "version": "1.0.0",
+      "category": "productivity",
+      "source": "./plugin",
+      "homepage": "https://github.com/hadamyeedady12-dev/claude-debate-skill"
     }
   ]
 }

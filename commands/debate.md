@@ -150,7 +150,7 @@ printf '%s' "## 토론 주제
 ## 블라인드 스팟 주입
 
 토론 주제가 security, architecture, data, API, operations 도메인에 해당하면:
-1. `~/.claude/config/blind-spots.md`를 읽는다
+1. 플러그인 내 `config/blind-spots.md`를 읽는다 (독립 설치 시 `~/.claude/config/blind-spots.md`)
 2. 해당 도메인의 프로브 질문을 라운드 2 프롬프트에 주입한다
 3. 참가자들이 블라인드 스팟을 다루도록 유도한다
 

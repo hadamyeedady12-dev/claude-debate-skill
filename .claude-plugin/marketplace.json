@@ -1,0 +1,14 @@
+{
+  "name": "debate-skill",
+  "owner": {
+    "name": "hadamyeedady12-dev"
+  },
+  "plugins": [
+    {
+      "name": "debate",
+      "source": ".",
+      "description": "Multi-model structured debate — Codex, Gemini, Claude 3-way round debate",
+      "version": "1.0.0"
+    }
+  ]
+}
